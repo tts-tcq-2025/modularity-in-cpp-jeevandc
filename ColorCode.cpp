@@ -31,10 +31,13 @@ namespace TeliComWireColorCode
 
     void printNumberToPair(int pairNumber);
     {
-
+        TeliComWireColorCode::ColorPair colorPair =
+            TeliComWireColorCode::GetColorFromPairNumber(pairNumber);
+        std::cout << "Color pair: " << colorPair.ToString() << std::endl;
     }
     void printPairToNumber(MajorColor major, MinorColor minor)
     {
-
+        int pairNumber = TeliComWireColorCode::GetPairNumberFromColor(major, minor);
+        std::cout << "pair number: " << pairNumber << std::endl;
     }
 }
