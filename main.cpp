@@ -4,8 +4,8 @@ int main() {
     TeliComWireColorCode::printNumberToPair(4);
     TeliComWireColorCode::printNumberToPair(5);
 
-    TeliComWireColorCode::printPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE);
-    TeliComWireColorCode::printPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE);
+    TeliComWireColorCode::printPairToNumber(TeliComWireColorCode::BLACK, TeliComWireColorCode::ORANGE);
+    TeliComWireColorCode::printPairToNumber(TeliComWireColorCode::VIOLET, TeliComWireColorCode::SLATE);
 
     return 0;
 }
