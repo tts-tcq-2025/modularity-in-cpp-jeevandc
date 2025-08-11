@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include <iostream>
 #include <assert.h>
-#include "ColorCode.h"
+#include "colorCode.h"
 
 void testNumberToPair(int pairNumber,
     TeliComWireColorCode::MajorColor expectedMajor,
