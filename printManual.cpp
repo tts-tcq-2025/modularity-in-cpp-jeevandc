@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ColorCoder.h"
+#include "colorCoder.h"
 #include "printManual.h"
 
 namespace TeliComWireColorCode 
