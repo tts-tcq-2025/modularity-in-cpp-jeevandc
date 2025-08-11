@@ -1,4 +1,5 @@
 #include "ColorCode.h"
+#include <iostream>
 
 namespace TeliComWireColorCode
 {
