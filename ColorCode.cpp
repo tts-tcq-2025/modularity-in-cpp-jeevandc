@@ -30,7 +30,7 @@ namespace TeliComWireColorCode
         return major * numberOfMinorColors + minor + 1;
     }
 
-    void printNumberToPair(int pairNumber);
+    void printNumberToPair(int pairNumber)
     {
         TeliComWireColorCode::ColorPair colorPair =
             TeliComWireColorCode::GetColorFromPairNumber(pairNumber);
