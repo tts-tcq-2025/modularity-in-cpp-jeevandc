@@ -1,4 +1,4 @@
-#include "ColorCode.h"
+#include "colorCode.h"
 #include <iostream>
 
 namespace TeliComWireColorCode
